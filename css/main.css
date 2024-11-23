@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    background-color: sienna;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: paleturquoise;
+}
+
+header {
+    width: auto;
+    height: 4vw;
+    background-color: purple;
+}
+
+header h1 {
+    width: 150px;
+    text-align: left;
+}
+
+nav {
+    height: 3vw;
+    background-color: beige;
+}
+
+section {
+    display: flex;
+    margin: auto;
+    width: 96vw;
+    height: 75vw;
+    background-color: silver;
+}
+
+article {
+    flex: 6;
+}
+
+aside {
+    flex: 1;
+    background-color: aqua;
+}
+
+footer {
+    clear: both;
+    width: auto;
+    height: 10vw;
+    background-color: gold;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+    display: none;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu:hover:not(.home) {
+    background-color: darkorange;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
