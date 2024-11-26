@@ -24,7 +24,7 @@ li a {
 header {
     width: auto;
     height: 4vw;
-    background-color: purple;
+    background-color: #F6D6D6;
 }
 
 header h1 {
@@ -34,7 +34,19 @@ header h1 {
 
 nav {
     height: 3vw;
-    background-color: beige;
+    background-color: #F6F7C4;
+}
+
+nav ul {
+    width: 100%;
+    background-color: rgba(44, 42, 39, 0.983);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
 }
 
 section {
@@ -42,7 +54,7 @@ section {
     margin: auto;
     width: 96vw;
     height: 75vw;
-    background-color: silver;
+    background-color: #A1EEBD;
 }
 
 article {
@@ -58,7 +70,7 @@ footer {
     clear: both;
     width: auto;
     height: 10vw;
-    background-color: gold;
+    background-color: #7BD3EA;
 }
 
 .dropdown {
