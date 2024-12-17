@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url('../image/_.jpeg');;
+    /* background-image: url('../image/_.jpeg');; */
 }
 
 header {
@@ -87,11 +87,21 @@ section {
     margin: auto;
     width: 90vw;
     height: 75vw;
-    background-color: #A1EEBD;
 }
 
 article {
     flex: 6;
+}
+
+.sect {
+    text-align: center;
+}
+
+.middle {
+    margin: 30px;
+    display: inline-block;
+    width: 20vw;
+    height: 30vw;
 }
 
 aside {
@@ -105,4 +115,53 @@ footer {
     width: 90vw;
     height: 10vw;
     background-color: #7BD3EA;
+}
+
+#bestpants {
+    background-image: url('../image/bluepants.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#bestshirt {
+    background-image: url('../image/shirts.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#bestfishtail {
+    background-image: url('../image/fishtail.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#besthood {
+    background-image: url('../image/hood.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#bestblackhood {
+    background-image: url('../image/blackhood.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#bestsweater {
+    background-image: url('../image/sweater.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#besttshirt {
+    background-image: url('../image/tshirt.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
