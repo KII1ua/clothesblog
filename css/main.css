@@ -115,7 +115,7 @@ footer {
     clear: both;
     width: 90vw;
     height: 10vw;
-    background-color: #7BD3EA;
+    background-color: gray;
 }
 
 .art {
@@ -137,5 +137,11 @@ footer {
 
 .half p {
     text-align: left;
+    padding: 10px;
     color: yellowgreen;
+}
+
+footer * {
+    padding: 8.5px;
+    text-align: center;
 }
