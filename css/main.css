@@ -3,6 +3,25 @@
     margin: 0;
 }
 
+h1 {
+    color: white;
+}
+
+audio {
+    display: none;
+}
+
+a {
+    text-decoration: none; /* 밑줄 제거 */
+    color: black; /* 글자 색상 검정색으로 설정 */
+}
+
+a:hover {
+    text-decoration: none; /* 호버 시에도 밑줄 제거 */
+    color: black; /* 호버 시에도 글자 색상 유지 */
+}
+
+
 body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../image/12.jpg");
 }
@@ -87,6 +106,8 @@ section {
     margin: auto;
     width: 90vw;
     height: 75vw;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 article {
@@ -96,26 +117,7 @@ article {
 .sect {
     text-align: center;
     margin: 20px 0;
-}
-
-.middle {
-    margin: 30px;
-    display: inline-block;
-    width: 20vw;
-    height: 30vw;
-}
-
-aside {
-    flex: 1;
-    background-color: aqua;
-}
-
-footer {
-    margin: auto;
-    clear: both;
-    width: 90vw;
-    height: 10vw;
-    background-color: gray;
+    color: white;
 }
 
 .art {
@@ -130,6 +132,23 @@ footer {
     display: flex;
     gap: 5%;
 }
+
+aside {
+    flex: 1;
+    background-image: url(../image/asideimage.jpeg);
+    background-size: cover;
+    background-position: center; /* 이미지를 중앙에 배치 */
+    background-repeat: no-repeat; /* 이미지 반복 방지 */
+}
+
+footer {
+    margin: auto;
+    clear: both;
+    width: 90vw;
+    height: 10vw;
+    background-color: gray;
+}
+
 
 .flxs {
     flex:3;
@@ -154,4 +173,12 @@ footer * {
 
 .infodiv {
     background-color: #ffffff;
+}
+
+.leftclock {
+    margin-left: 800px;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 16ps;
+    color: black;
 }
